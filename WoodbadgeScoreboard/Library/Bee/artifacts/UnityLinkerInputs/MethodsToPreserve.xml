@@ -4,6 +4,11 @@
 			<method name="OnButtonClick"/>
 			<method name="OnButtonClick"/>
 			<method name="OnButtonClick"/>
+			<method name="OnButtonClick"/>
+			<method name="OnButtonClick"/>
+			<method name="OnButtonClick"/>
+			<method name="OnButtonClick"/>
+			<method name="OnButtonClick"/>
 		</type>
 	</assembly>
 </linker>

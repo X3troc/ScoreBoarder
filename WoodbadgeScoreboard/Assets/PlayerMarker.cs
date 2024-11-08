@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
 
@@ -7,11 +8,14 @@ public class PlayerMarker : MonoBehaviour
     public float moveDuration = 0.5f; // Duration of the movement
     public TMP_InputField scoreInputField; // Reference to the TMP_InputField
     public TMP_Text scoreText; // Reference to the TMP_Text component to display the score
+    public float rotationSpeed = 60f; // Speed of rotation in degrees per second
 
     private bool isMoving = false;
     private Vector3 targetPosition;
     private float totalScore = 0f; // Total score
     private float currentScore = 0f; // Current displayed score
+    [SerializeField] private bool isWinning = false;
+    private Coroutine rotationCoroutine;
 
     void Start()
     {
@@ -69,5 +73,40 @@ public class PlayerMarker : MonoBehaviour
     {
         scoreText.text = "Score: " + currentScore.ToString("F2");
         scoreText.color = isMoving ? Color.red : Color.white;
+    }
+    
+    // Function to set isWinning
+    // Function to set isWinning
+    public void SetIsWinning(bool winning)
+    {
+        isWinning = winning;
+        if (isWinning)
+        {
+            if (rotationCoroutine == null)
+            {
+                rotationCoroutine = StartCoroutine(RotateWhileWinning());
+            }
+        }
+    }
+    private IEnumerator RotateWhileWinning()
+    {
+        while (true)
+        {
+            float rotationAmount = 0f;
+            while (rotationAmount < 360f)
+            {
+                float rotationStep = rotationSpeed * Time.deltaTime;
+                transform.Rotate(Vector3.up, rotationStep);
+                rotationAmount += rotationStep;
+                Debug.Log(rotationAmount);
+                yield return null;
+            }
+            
+            if (!isWinning)
+            {
+                rotationCoroutine = null;
+                break;
+            }
+        }
     }
 }

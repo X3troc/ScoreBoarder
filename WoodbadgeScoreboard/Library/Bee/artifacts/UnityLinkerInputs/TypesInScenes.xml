@@ -1,6 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="BeautifyEffect.Beautify" preserve="nothing"/>
 		<type fullname="CameraAutoControl" preserve="nothing"/>
+		<type fullname="LeaderChecker" preserve="nothing"/>
 		<type fullname="PlayerMarker" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
@@ -58,6 +60,7 @@
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.SpriteRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
