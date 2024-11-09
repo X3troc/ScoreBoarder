@@ -16,7 +16,10 @@ public class PlayerMarker : MonoBehaviour
     private float currentScore = 0f; // Current displayed score
     [SerializeField] private bool isWinning = false;
     private Coroutine rotationCoroutine;
+    [SerializeField] ParticleSystem fxStartMove; // Reference to the particle system
+    [SerializeField] ParticleSystem fxLeader; // Reference to the particle system
 
+    
     void Start()
     {
         targetPosition = transform.position;
@@ -61,6 +64,10 @@ public class PlayerMarker : MonoBehaviour
                 totalScore += moveDistance; // Update total score
                 targetPosition = transform.position + Vector3.up * moveDistance;
                 isMoving = true;
+                if (!fxStartMove.isPlaying)
+                {
+                    fxStartMove.Play(); // Play the particle system
+                }
             }
             else
             {
@@ -85,6 +92,7 @@ public class PlayerMarker : MonoBehaviour
             if (rotationCoroutine == null)
             {
                 rotationCoroutine = StartCoroutine(RotateWhileWinning());
+                fxLeader.Play(); // Play the particle system
             }
         }
     }
@@ -105,6 +113,7 @@ public class PlayerMarker : MonoBehaviour
             if (!isWinning)
             {
                 rotationCoroutine = null;
+                fxLeader.Stop(); // Stop the particle system
                 break;
             }
         }

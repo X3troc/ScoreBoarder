@@ -7,6 +7,7 @@ public class CameraAutoControl : MonoBehaviour
     public float basePadding = 2f; // Base padding around the objects
     public float smoothSpeed = 0.125f; // Speed of the camera movement
     public float baseOrthographicSize = 5f; // Base orthographic size for scaling
+    public float xOffset = 0f; // Horizontal offset for the camera
 
     private Camera mainCamera;
 
@@ -16,6 +17,29 @@ public class CameraAutoControl : MonoBehaviour
         if (!mainCamera.orthographic)
         {
             Debug.LogError("Camera is not orthographic!");
+        }
+    }
+
+    void Update()
+    {
+        // Check for right and left arrow key inputs
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            xOffset -= 0.1f;
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            xOffset += 0.1f;
+        }
+
+        // Check for up and down arrow key inputs
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            basePadding += 0.1f;
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            basePadding -= 0.1f;
         }
     }
 
@@ -30,7 +54,7 @@ public class CameraAutoControl : MonoBehaviour
             bounds.Encapsulate(obj.position);
         }
 
-        Vector3 desiredPosition = bounds.center + new Vector3(0, 0, -10);
+        Vector3 desiredPosition = bounds.center + new Vector3(xOffset, 0, -10);
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
 

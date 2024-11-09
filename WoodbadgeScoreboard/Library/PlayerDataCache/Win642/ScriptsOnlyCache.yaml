@@ -1,10 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BackgroundController
     - BeautifyEffect.Beautify
     - CameraAutoControl
+    - HS_EffectSound
+    - KeyboardController
     - LeaderChecker
+    - LooserChecker
+    - MusicSelectorPlayer
     - PlayerMarker
+    - SystemSettings
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -23,6 +29,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
     - TMPro.TMP_Settings
@@ -40,7 +47,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Toggle
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -52,7 +63,11 @@ ScriptsOnlyBuild:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
     - TMPro.KerningTable
+    - TMPro.LigatureSubstitutionRecord
     - TMPro.TMP_Character
+    - TMPro.TMP_Dropdown/DropdownEvent
+    - TMPro.TMP_Dropdown/OptionData
+    - TMPro.TMP_Dropdown/OptionDataList
     - TMPro.TMP_FontFeatureTable
     - TMPro.TMP_FontWeightPair
     - TMPro.TMP_InputField/OnChangeEvent
@@ -83,7 +98,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: PlayerMarker
@@ -137,6 +155,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -144,47 +166,67 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 25444}
+      Script: {instanceID: 25654}
     - Class: 114
-      Script: {instanceID: 25708}
+      Script: {instanceID: 25920}
     - Class: 114
-      Script: {instanceID: 25990}
+      Script: {instanceID: 26208}
     - Class: 114
-      Script: {instanceID: 26240}
+      Script: {instanceID: 26468}
     - Class: 114
-      Script: {instanceID: 26658}
+      Script: {instanceID: 26564}
     - Class: 114
-      Script: {instanceID: 26708}
+      Script: {instanceID: 26898}
     - Class: 114
-      Script: {instanceID: 26918}
+      Script: {instanceID: 26948}
     - Class: 114
-      Script: {instanceID: 27208}
+      Script: {instanceID: 27166}
     - Class: 114
-      Script: {instanceID: 27418}
+      Script: {instanceID: 27464}
     - Class: 114
-      Script: {instanceID: 27624}
+      Script: {instanceID: 27678}
     - Class: 114
-      Script: {instanceID: 27874}
+      Script: {instanceID: 27888}
     - Class: 114
-      Script: {instanceID: 29612}
+      Script: {instanceID: 27998}
     - Class: 114
-      Script: {instanceID: 29968}
+      Script: {instanceID: 28142}
     - Class: 114
-      Script: {instanceID: 30102}
+      Script: {instanceID: 28700}
     - Class: 114
-      Script: {instanceID: 30238}
+      Script: {instanceID: 29854}
     - Class: 114
-      Script: {instanceID: 30266}
+      Script: {instanceID: 29920}
     - Class: 114
-      Script: {instanceID: 30366}
+      Script: {instanceID: 29974}
     - Class: 114
-      Script: {instanceID: 31240}
+      Script: {instanceID: 30284}
     - Class: 114
-      Script: {instanceID: 31310}
+      Script: {instanceID: 30418}
     - Class: 114
-      Script: {instanceID: 41890}
+      Script: {instanceID: 30464}
     - Class: 114
-      Script: {instanceID: 56120}
+      Script: {instanceID: 30554}
+    - Class: 114
+      Script: {instanceID: 30582}
+    - Class: 114
+      Script: {instanceID: 30686}
+    - Class: 114
+      Script: {instanceID: 31416}
+    - Class: 114
+      Script: {instanceID: 31532}
+    - Class: 114
+      Script: {instanceID: 31580}
+    - Class: 114
+      Script: {instanceID: 31650}
+    - Class: 114
+      Script: {instanceID: 32182}
+    - Class: 114
+      Script: {instanceID: 32786}
+    - Class: 114
+      Script: {instanceID: 87178}
+    - Class: 114
+      Script: {instanceID: 141768}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -192,6 +234,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -296,6 +342,12 @@ ScriptsOnlyBuild:
     className: BaseInputOverride
   - hash:
       serializedVersion: 2
+      Hash: 389165d267c5c80cd5bdd6267c78fbe1
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: Demo4
+  - hash:
+      serializedVersion: 2
       Hash: 0c0b64d103fe555d830e8ca206abd12a
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -320,6 +372,12 @@ ScriptsOnlyBuild:
     className: PlayerInputEditor
   - hash:
       serializedVersion: 2
+      Hash: b0ecc34cd53cdbd852d53ddad6b99f30
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HS_FrontMover
+  - hash:
+      serializedVersion: 2
       Hash: daeac1347f8039f61cd4017ff33bd3c6
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
@@ -330,6 +388,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b6521806659016125e42e1a87a6e69f7
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: CameraAnimator
   - hash:
       serializedVersion: 2
       Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
@@ -354,6 +418,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: 8c2169d4acc49aedd3816a4255ae24b2
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: SphereAnimator
   - hash:
       serializedVersion: 2
       Hash: 1deda86fe7ffd8587afcfe68a02d034c
@@ -398,6 +468,12 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
+      Hash: 05ef0e93c78c7c7e0280cbdcbbefead2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LeaderChecker
+  - hash:
+      serializedVersion: 2
       Hash: f669be52680c88846b2093fd41d1e06e
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -426,6 +502,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: aa80b8658804809d06326b2cb4d9d17c
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: Demo2
   - hash:
       serializedVersion: 2
       Hash: 8bf800a764665b085fe469e8aea7f167
@@ -512,10 +594,28 @@ ScriptsOnlyBuild:
     className: ScriptMachine
   - hash:
       serializedVersion: 2
+      Hash: f8b96bf70931bf9e5abc578e8eff2894
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HS_DemoToonVFX
+  - hash:
+      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9f4b690be5943b6a07c2e984e941b3a2
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: Demo1
+  - hash:
+      serializedVersion: 2
+      Hash: 72f277668c2008b3128b8cc9b40d1347
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXEffectController
   - hash:
       serializedVersion: 2
       Hash: 96e7bcfd2d072992dab64ac44058b930
@@ -530,10 +630,22 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 66819f57477197346f8f02c878d5db2d
+      Hash: 993f92235e1fd6f6e6dfa98589bb3009
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMarker
+  - hash:
+      serializedVersion: 2
+      Hash: 87b7180c01f68587dd99acefaf6c4d1a
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: BeautifyProfile
+  - hash:
+      serializedVersion: 2
+      Hash: f62921fa4aeac89728fba7177f540d18
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXProjectileScript
   - hash:
       serializedVersion: 2
       Hash: c4de0ff7e075dd89c9fed5913dd775d2
@@ -578,6 +690,12 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
+      Hash: b1be462d21fdfb6e2e13c0ff235bf5f4
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXRotation
+  - hash:
+      serializedVersion: 2
       Hash: d7c8092511063e0dae8106bfc8ed63dd
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -608,7 +726,7 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: df1aacc655601aa0341da07df208dfe3
+      Hash: 3cf259cd63cd1765a1784398805e4334
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraAutoControl
@@ -648,6 +766,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f454daca08b93dc0873c63802096472d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeyboardController
   - hash:
       serializedVersion: 2
       Hash: 191c3402cd43ee08f0a96795440c294e
@@ -704,10 +828,22 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: d5f97cb06f6a0c4b59f31e3ea5a33caf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HS_EffectSound
+  - hash:
+      serializedVersion: 2
       Hash: b30c8635462e66ac20f4241106119f77
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 55b57eac64a563848b4f9260ebfd7648
+    assemblyName: Assembly-CSharp
+    namespaceName: ETFXPEL
+    className: ParticleEffectsLibrary
   - hash:
       serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
@@ -728,10 +864,28 @@ ScriptsOnlyBuild:
     className: ChatController
   - hash:
       serializedVersion: 2
+      Hash: 098ca6bd1fdffb9065739bc15970da8d
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: c64d7d32fcebdf28048fc3a1f2da7fe9
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXLoopScript
+  - hash:
+      serializedVersion: 2
       Hash: 51b80d3734ea86b38e3101db98029e15
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3970c9e898786b0d31979638f28dca72
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LooserChecker
   - hash:
       serializedVersion: 2
       Hash: 1981decccddfde3e97fcfd6689332a6f
@@ -770,6 +924,12 @@ ScriptsOnlyBuild:
     className: UnityOnDropMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 59d9683bafcfcc6dea5b87c39750446c
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: FreeCameraMove
+  - hash:
+      serializedVersion: 2
       Hash: 04b6685b6f724c0d6024e6b6f96c8202
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -786,6 +946,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 245caa39d4e9433e8c1bf1f3c802c9f2
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXTarget
   - hash:
       serializedVersion: 2
       Hash: b838cbada0b03f1cfbaebc8e124f4f39
@@ -912,6 +1078,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: fd3ac26237538dab39707ed9c3625540
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXFireProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: 9e7bf317b302b9a3ea9f921230eee8ed
+    assemblyName: Assembly-CSharp
+    namespaceName: BeautifyEffect
+    className: Beautify
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -1106,6 +1284,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: f08368280d8b8d9bb753efe2ca037c2f
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXEffectCycler
+  - hash:
+      serializedVersion: 2
       Hash: 3074afe1b03a0fb081e176a4ef1b9d09
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -1128,6 +1312,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 994d094da7d881115b1b6047f6d92a9f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HS_ParticleCollisionInstance
+  - hash:
+      serializedVersion: 2
+      Hash: c216dc3f3e82456d445cc3edf1d281cf
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXMouseOrbit
   - hash:
       serializedVersion: 2
       Hash: 28fd3d045acc780719a17f02073eb448
@@ -1158,6 +1354,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: 0cc8ef60300841b69b14be57cc32a4d5
+    assemblyName: Assembly-CSharp
+    namespaceName: ETFXPEL
+    className: PEButtonScript
   - hash:
       serializedVersion: 2
       Hash: 90cf308600fb4aeb677786843453ec55
@@ -1200,6 +1402,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 89589117f35f50a1cd3086c8920c9800
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SystemSettings
   - hash:
       serializedVersion: 2
       Hash: 665da785348a8806bf1524fe10742a60
@@ -1256,6 +1464,18 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 5c3a4877a8e5e8ff9ff0f65f8fe52a94
+    assemblyName: Assembly-CSharp
+    namespaceName: ETFXPEL
+    className: UICanvasManager
+  - hash:
+      serializedVersion: 2
+      Hash: 20178757aeac47ba8c394ec9e7b055a0
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXEffectControllerPooled
+  - hash:
+      serializedVersion: 2
       Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1272,6 +1492,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: e0fd4a89b67a5c9b53ee9b9995a77204
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXLightFade
   - hash:
       serializedVersion: 2
       Hash: 1d830bc5cfaaf24301dffea2877f4bea
@@ -1340,6 +1566,12 @@ ScriptsOnlyBuild:
     className: DropdownSample
   - hash:
       serializedVersion: 2
+      Hash: c7dfa79d3d1c3418eacd0410b050d1f3
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXPitchRandomizer
+  - hash:
+      serializedVersion: 2
       Hash: 83cfda82082c233d96cc677c19f57e07
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1362,6 +1594,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3f7b2d0f02f2f0478732dafc1f93fa
+    assemblyName: Assembly-CSharp
+    namespaceName: EpicToonFX
+    className: ETFXSpriteBouncer
   - hash:
       serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9
@@ -1388,58 +1626,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 9e7bf317b302b9a3ea9f921230eee8ed
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: Beautify
-  - hash:
-      serializedVersion: 2
-      Hash: 389165d267c5c80cd5bdd6267c78fbe1
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: Demo4
-  - hash:
-      serializedVersion: 2
-      Hash: b6521806659016125e42e1a87a6e69f7
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: CameraAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 8c2169d4acc49aedd3816a4255ae24b2
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: SphereAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: aa80b8658804809d06326b2cb4d9d17c
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: Demo2
-  - hash:
-      serializedVersion: 2
-      Hash: 9f4b690be5943b6a07c2e984e941b3a2
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: Demo1
-  - hash:
-      serializedVersion: 2
-      Hash: 87b7180c01f68587dd99acefaf6c4d1a
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: BeautifyProfile
-  - hash:
-      serializedVersion: 2
-      Hash: 59d9683bafcfcc6dea5b87c39750446c
-    assemblyName: Assembly-CSharp
-    namespaceName: BeautifyEffect
-    className: FreeCameraMove
-  - hash:
-      serializedVersion: 2
-      Hash: 05ef0e93c78c7c7e0280cbdcbbefead2
+      Hash: 153242a5adaf6ec8de40952f1cbb6739
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: LeaderChecker
+    className: BackgroundController
+  - hash:
+      serializedVersion: 2
+      Hash: 8de1aeba3c4df869fcdd1586157e1108
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MusicSelectorPlayer
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
