@@ -78,6 +78,7 @@ public class MusicSelectorPlayer : MonoBehaviour
         if (index >= 0 && index < audioClips.Length)
         {
             audioSource.clip = audioClips[index];
+            timeText.color = Color.white; // Set text color to white when stopped
         }
     }
 

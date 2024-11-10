@@ -9,6 +9,8 @@ public class PlayerMarker : MonoBehaviour
     public TMP_InputField scoreInputField; // Reference to the TMP_InputField
     public TMP_Text scoreText; // Reference to the TMP_Text component to display the score
     public float rotationSpeed = 60f; // Speed of rotation in degrees per second
+    public AudioClip[] MoveSoundFX; // Array of AudioClip objects for move sounds
+    private AudioSource audioSource; // Reference to the AudioSource component
 
     private bool isMoving = false;
     private Vector3 targetPosition;
@@ -19,11 +21,11 @@ public class PlayerMarker : MonoBehaviour
     [SerializeField] ParticleSystem fxStartMove; // Reference to the particle system
     [SerializeField] ParticleSystem fxLeader; // Reference to the particle system
 
-    
     void Start()
     {
         targetPosition = transform.position;
         UpdateScoreText();
+        audioSource = GetComponent<AudioSource>(); // Get the AudioSource component
     }
 
     void Update()
@@ -64,6 +66,7 @@ public class PlayerMarker : MonoBehaviour
                 totalScore += moveDistance; // Update total score
                 targetPosition = transform.position + Vector3.up * moveDistance;
                 isMoving = true;
+                PlayMoveSound(); // Play a move sound
                 if (!fxStartMove.isPlaying)
                 {
                     fxStartMove.Play(); // Play the particle system
@@ -76,14 +79,21 @@ public class PlayerMarker : MonoBehaviour
         }
     }
 
+    private void PlayMoveSound()
+    {
+        if (MoveSoundFX.Length > 0)
+        {
+            int randomIndex = Random.Range(0, MoveSoundFX.Length);
+            audioSource.PlayOneShot(MoveSoundFX[randomIndex]);
+        }
+    }
+
     private void UpdateScoreText()
     {
         scoreText.text = "Score: " + currentScore.ToString("F2");
         scoreText.color = isMoving ? Color.red : Color.white;
     }
-    
-    // Function to set isWinning
-    // Function to set isWinning
+
     public void SetIsWinning(bool winning)
     {
         isWinning = winning;
@@ -96,6 +106,7 @@ public class PlayerMarker : MonoBehaviour
             }
         }
     }
+
     private IEnumerator RotateWhileWinning()
     {
         while (true)
@@ -109,7 +120,7 @@ public class PlayerMarker : MonoBehaviour
                 Debug.Log(rotationAmount);
                 yield return null;
             }
-            
+
             if (!isWinning)
             {
                 rotationCoroutine = null;
