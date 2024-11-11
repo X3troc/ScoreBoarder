@@ -18,6 +18,7 @@ public class PlayerMarker : MonoBehaviour
     private float currentScore = 0f; // Current displayed score
     [SerializeField] private bool isWinning = false;
     private Coroutine rotationCoroutine;
+    private Coroutine moveCoroutine;
     [SerializeField] ParticleSystem fxStartMove; // Reference to the particle system
     [SerializeField] ParticleSystem fxLeader; // Reference to the particle system
 
@@ -71,6 +72,11 @@ public class PlayerMarker : MonoBehaviour
                 {
                     fxStartMove.Play(); // Play the particle system
                 }
+                if (moveCoroutine != null)
+                {
+                    StopCoroutine(moveCoroutine);
+                }
+                moveCoroutine = StartCoroutine(MoveTimeout());
             }
             else
             {
@@ -92,6 +98,19 @@ public class PlayerMarker : MonoBehaviour
     {
         scoreText.text = "Score: " + currentScore.ToString("F2");
         scoreText.color = isMoving ? Color.red : Color.white;
+    }
+
+    private IEnumerator MoveTimeout()
+    {
+        yield return new WaitForSeconds(5f);
+        if (isMoving)
+        {
+            isMoving = false;
+            currentScore = totalScore;
+            transform.position = targetPosition;
+            UpdateScoreText();
+            Debug.Log("Movement timed out after 5 seconds.");
+        }
     }
 
     public void SetIsWinning(bool winning)
