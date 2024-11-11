@@ -96,7 +96,7 @@ public class PlayerMarker : MonoBehaviour
 
     private void UpdateScoreText()
     {
-        scoreText.text = "Score: " + currentScore.ToString("F2");
+        scoreText.text = currentScore.ToString("F0");
         scoreText.color = isMoving ? Color.red : Color.white;
     }
 

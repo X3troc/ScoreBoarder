@@ -15,7 +15,7 @@ D:/Development/Unity/SourceControlled/ScoreBoarder/WoodbadgeScoreboard
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50360
+58210
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Development/Unity/SourceControlled/ScoreBoarder/WoodbadgeScoreboard
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20860]  Target information:
+Player connection [31968]  Target information:
 
-Player connection [20860]  * "[IP] 192.168.1.124 [Port] 0 [Flags] 2 [Guid] 2424634117 [EditorId] 2424634117 [Version] 1048832 [Id] WindowsEditor(7,RyzenPhoenix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31968]  * "[IP] 192.168.1.124 [Port] 0 [Flags] 2 [Guid] 4226559863 [EditorId] 4226559863 [Version] 1048832 [Id] WindowsEditor(7,RyzenPhoenix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20860] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20860] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31968] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
@@ -91,50 +91,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003736 seconds.
-- Loaded All Assemblies, in  0.314 seconds
+Registered in 0.006463 seconds.
+- Loaded All Assemblies, in  0.573 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.268 seconds
-Domain Reload Profiling: 580ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (297ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (293ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (105ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (152ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (268ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (656ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (235ms)
+		SetupLoadedEditorAssemblies (594ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (119ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -142,94 +142,827 @@ Domain Reload Profiling: 580ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.784 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.197 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.626 seconds
-Domain Reload Profiling: 1407ms
-	BeginReloadAssembly (329ms)
+- Finished resetting the current domain, in  2.373 seconds
+Domain Reload Profiling: 4563ms
+	BeginReloadAssembly (933ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (384ms)
-		LoadAssemblies (299ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1112ms)
+		LoadAssemblies (691ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (164ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (109ms)
-			BuildScriptInfoCaches (37ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (626ms)
+		AnalyzeDomain (585ms)
+			TypeCache.Refresh (408ms)
+				TypeCache.ScanAssembly (377ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2374ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
+		SetupLoadedEditorAssemblies (1489ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (1105ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3780 unused Assets / (2.8 MB). Loaded Objects now: 4403.
-Memory consumption went from 126.6 MB to 123.8 MB.
-Total: 8.496700 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.185400 ms MarkObjects: 5.628300 ms  DeleteObjects: 2.299500 ms)
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6070 unused Assets / (4.5 MB). Loaded Objects now: 6854.
+Memory consumption went from 199.5 MB to 195.0 MB.
+Total: 19.142000 ms (FindLiveObjects: 1.644100 ms CreateObjectMapping: 1.301400 ms MarkObjects: 11.988000 ms  DeleteObjects: 4.206200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 570481.175766 seconds.
-  path: Assets/Sprites/Tiki/BearTikiTiki.png
-  artifactKey: Guid(96baec64140c3c547ad65139baf5d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/BearTikiTiki.png using Guid(96baec64140c3c547ad65139baf5d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c7c314da02e572b523161407b3a69c3') in 0.0679712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 575038.967604 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset
+  artifactKey: Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset using Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84a1506258761c728db7ff813fa7ffd7') in 0.8076661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Tiki/BuffaloTikiTP.png
-  artifactKey: Guid(0a44d070d3be2f9439cf8502fc437989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/BuffaloTikiTP.png using Guid(0a44d070d3be2f9439cf8502fc437989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94aabd755fc4d5879e668f7f9b28440e') in 0.01367 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000030 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Misc/MusicalNotes.prefab
+  artifactKey: Guid(d68940e546df9254c8891b5c9507cd4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Misc/MusicalNotes.prefab using Guid(d68940e546df9254c8891b5c9507cd4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'be20b4be93f979849486822d22fd9f69') in 0.0439015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95170af7bf5a606b439ecbdccfb0e274') in 0.022492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Tiki/EagleTikiTP.png
-  artifactKey: Guid(bc216a1c66761d64f88c03d4f30b54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/EagleTikiTP.png using Guid(bc216a1c66761d64f88c03d4f30b54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5783310be3cb6bda83c06b319533b9f') in 0.0111589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '779685d7a85cda2afe201bf2c459c580') in 0.0133459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Tiki/BeaverTikiTP.png
-  artifactKey: Guid(f0a5de40bf0622344bac9ea9eddc8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/BeaverTikiTP.png using Guid(f0a5de40bf0622344bac9ea9eddc8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b49b25ba20e87a22189772841a64241b') in 0.0113426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Demo/Scenes/etfx_decals.unity
+  artifactKey: Guid(5b495297bbe0d2549aa87a2ef68dd6f5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Scenes/etfx_decals.unity using Guid(5b495297bbe0d2549aa87a2ef68dd6f5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Epic Toon FX/Demo/Scenes/etfx_decals.unity additively'
+Loaded scene 'Assets/Epic Toon FX/Demo/Scenes/etfx_decals.unity'
+	Deserialize:            14.664 ms
+	Integration:            103.999 ms
+	Integration of assets:  0.028 ms
+	Thread Wait Time:       -0.002 ms
+	Total Operation Time:   118.688 ms
+ -> (artifact id: 'f9124c442606fa75da22ee2ec24f83bd') in 0.5530862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 425
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Misc/PlexusExplosion.prefab
+  artifactKey: Guid(f21836be3103a614db774ed06733eb75) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Misc/PlexusExplosion.prefab using Guid(f21836be3103a614db774ed06733eb75) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b845e107119c543a95f16392efe14400') in 0.126552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/EnergyNova/NovaGreenOBJ.prefab
+  artifactKey: Guid(c86d0200e9ea33148a933816d12e85a1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/EnergyNova/NovaGreenOBJ.prefab using Guid(c86d0200e9ea33148a933816d12e85a1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7005ecf48306713f7831ab4441a7e1eb') in 0.2304549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Tiki/FoxTikiTP.png
-  artifactKey: Guid(0bb801f7f5b316643a6b2d3fdba2bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/FoxTikiTP.png using Guid(0bb801f7f5b316643a6b2d3fdba2bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01d6c0057d0d8a9d1168ea4a33e26775') in 0.0102955 seconds
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b69adb815b20ff16055fc60be34346f1') in 0.1281322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat
+  artifactKey: Guid(2ddca8f46aa0838419d568affb0ca6b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat using Guid(2ddca8f46aa0838419d568affb0ca6b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28b5fe01cd57ebf7e7b8e736cb0e144c') in 0.0311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/MagicSoft/MagicSoftBlueOBJ.prefab
+  artifactKey: Guid(d1952661920b70841858fc1009c6cfaa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/MagicSoft/MagicSoftBlueOBJ.prefab using Guid(d1952661920b70841858fc1009c6cfaa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '635f7ac8e9a5d18629a6023c87be40c4') in 0.1084005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/Fruit/BananaMissileOBJ.prefab
+  artifactKey: Guid(34a0f5c5edc671549a9539f37d00ee1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/Fruit/BananaMissileOBJ.prefab using Guid(34a0f5c5edc671549a9539f37d00ee1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c3e642317ed5d768f24cea173161f5bf') in 0.0588838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources
+  artifactKey: Guid(d6d3a169ad794942a21da6a552d62f6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources using Guid(d6d3a169ad794942a21da6a552d62f6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46fd29d4086e71f44c00f48a06d9181b') in 0.0099991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf
+  artifactKey: Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf using Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1abd1e2de11d84576ff06a902b75358') in 0.0466176 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/Fruit/AppleMissileOBJ.prefab
+  artifactKey: Guid(0cecddab1e00f37439ec39eba7f232fe) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/Fruit/AppleMissileOBJ.prefab using Guid(0cecddab1e00f37439ec39eba7f232fe) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ac76e172e86a2ee8ce7527af25bbe9b8') in 0.0590551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+  artifactKey: Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity using Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity'
+	Deserialize:            33.448 ms
+	Integration:            69.138 ms
+	Integration of assets:  2.269 ms
+	Thread Wait Time:       0.796 ms
+	Total Operation Time:   105.651 ms
+ -> (artifact id: 'b1436910b803d4a86da6217cb8f174e8') in 0.1241914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+  artifactKey: Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity using Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity'
+	Deserialize:            27.312 ms
+	Integration:            10.019 ms
+	Integration of assets:  2.433 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   39.777 ms
+ -> (artifact id: 'ad6732abef7a29e8da18e7e9c8d52453') in 0.0599088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Giblets/GibletExplodeGrass.prefab
+  artifactKey: Guid(45e92963ad52cfa4b8a3029973510231) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Giblets/GibletExplodeGrass.prefab using Guid(45e92963ad52cfa4b8a3029973510231) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ba763914b355bcf71671c2385fb24809') in 0.0692811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/FlashExplosionRadial.prefab
+  artifactKey: Guid(0e1c7fb597c927a41893518fb7dc7472) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/FlashExplosionRadial.prefab using Guid(0e1c7fb597c927a41893518fb7dc7472) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6dd94ab717e568390716c01d0d43ba2f') in 0.0204719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab
+  artifactKey: Guid(0b4ea991852d6984aab98759fa8d4ebb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/BombFuse/BombFuse.prefab using Guid(0b4ea991852d6984aab98759fa8d4ebb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c470572813eac939fc84cc5023e0b314') in 0.0208933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Splat(Green).prefab
+  artifactKey: Guid(c5810da3db5452649be8d69663d6e919) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Splat(Green).prefab using Guid(c5810da3db5452649be8d69663d6e919) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2ace6d7778d0540c3ab21b98c7c83b49') in 0.0205796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat
+  artifactKey: Guid(947a44964e53bf0448ff698b2a2219c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat using Guid(947a44964e53bf0448ff698b2a2219c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5593b3d4ebf9a15ad9b09be3e4953192') in 0.0418428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.808826 seconds.
+  path: Assets/Materials/CubeMat8.mat
+  artifactKey: Guid(dd6a7ca530908a247abb2686cf0b0a21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/CubeMat8.mat using Guid(dd6a7ca530908a247abb2686cf0b0a21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dda789bbecf556761028ef427f0e92c') in 0.0275394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Sparks/SparkExplosionBlue.prefab
+  artifactKey: Guid(d8375ffafb92bd54da393edded479abb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Sparks/SparkExplosionBlue.prefab using Guid(d8375ffafb92bd54da393edded479abb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9d946e1bc49d45042acab239b8dd1bde') in 0.0255767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Ground explosion
+  artifactKey: Guid(cd0c63eca25e6cb4392449b241cee068) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Ground explosion using Guid(cd0c63eca25e6cb4392449b241cee068) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9633c2c0def4bb6c721d839dc220fffb') in 0.0172744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Smoke/StinkyCloud.prefab
+  artifactKey: Guid(e7c3a9353c0302b4cb1fab702e1db14f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Smoke/StinkyCloud.prefab using Guid(e7c3a9353c0302b4cb1fab702e1db14f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b89795c7a4724979c7954f35296e850a') in 0.0150032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodShowerLoop2D.prefab
+  artifactKey: Guid(3717f8c88ddc95c429e75c8101f0a9b7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs 2D/Blood/Green/GreenBloodShowerLoop2D.prefab using Guid(3717f8c88ddc95c429e75c8101f0a9b7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f15a5f0f60dfa572d7e3e6440dab3cbb') in 0.0222258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Healing/HealOnceBurst.prefab
+  artifactKey: Guid(448ffbcf71db27749b98c4ed68e15143) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Healing/HealOnceBurst.prefab using Guid(448ffbcf71db27749b98c4ed68e15143) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'deb72d023fb12739fecce3c753ea3eeb') in 0.0336305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Scripts/HS_ParticleCollisionInstance.cs
+  artifactKey: Guid(1a959a1b0b8414d4fb8a68bdc12d69ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Scripts/HS_ParticleCollisionInstance.cs using Guid(1a959a1b0b8414d4fb8a68bdc12d69ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efc1297a65c5a5465c6049375d756b28') in 0.0252281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Warning/WarningExclamation.prefab
+  artifactKey: Guid(05541640f4492734a88f2b15963e15d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Warning/WarningExclamation.prefab using Guid(05541640f4492734a88f2b15963e15d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8b31a08910f1b8547a1eb9237ef6e829') in 0.0162133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoof.prefab
+  artifactKey: Guid(c05e92eaee7a00844867e5edc8e0dde1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Dust/DustDirtyPoof.prefab using Guid(c05e92eaee7a00844867e5edc8e0dde1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5d4d690442819b621c62000c1dfec654') in 0.015721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatDirectional2D.prefab
+  artifactKey: Guid(1db5b810a6652c74784c28cfaba8cab0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodSplatDirectional2D.prefab using Guid(1db5b810a6652c74784c28cfaba8cab0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b882414d7abc1758abf5f2ddc5a82a1a') in 0.0188243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.710254 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Explosion/Explosion.prefab
+  artifactKey: Guid(9747e55cc13229f45bfee75afeaa540c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Explosion/Explosion.prefab using Guid(9747e55cc13229f45bfee75afeaa540c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'de0e814d0325b763ba80333d35941f84') in 0.0491146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/ToonBodySlam.prefab
+  artifactKey: Guid(56c3274d2f9ec214ab584a80b5ce2d6d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/ToonBodySlam.prefab using Guid(56c3274d2f9ec214ab584a80b5ce2d6d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '38dbc5c1668225591f5a0f72aa07fcd7') in 0.0229575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodSplatDirectional2.prefab
+  artifactKey: Guid(120d855bc18f7fa4f8c46575d5629105) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodSplatDirectional2.prefab using Guid(120d855bc18f7fa4f8c46575d5629105) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0ff940d8a9c064730be0c6c4d18c37c5') in 0.0282769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Water/WaterSplatDirectional.prefab
+  artifactKey: Guid(84895402b9414d64e9b52aefa246be78) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Water/WaterSplatDirectional.prefab using Guid(84895402b9414d64e9b52aefa246be78) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f8945a3dd50136bcf12b426d0aa566d7') in 0.0214547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodSplatWide.prefab
+  artifactKey: Guid(9f12ed38ceb59ae43b4089bd255ab180) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Yellow/YellowBloodSplatWide.prefab using Guid(9f12ed38ceb59ae43b4089bd255ab180) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4c02c746ae5c62d913a3e1a24f00a0e1') in 0.0374963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.764885 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/FireballSoftExplosion/ExplosionFireballSoftPink.prefab
+  artifactKey: Guid(b170aebab32c55e468901bd9220320f8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/FireballSoftExplosion/ExplosionFireballSoftPink.prefab using Guid(b170aebab32c55e468901bd9220320f8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0c5d20be395739d82491b6013d2e8bec') in 0.0255034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionOil.prefab
+  artifactKey: Guid(32e5eec4a4b3ffc4dba1ac0f5bb318be) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionOil.prefab using Guid(32e5eec4a4b3ffc4dba1ac0f5bb318be) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'cdd87f825a07e9921abfa3202d6e3b0b') in 0.017517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionGreen.prefab
+  artifactKey: Guid(62bc425171c9c964ba37f4fde2b18e46) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/MagicSoftExplosion/MagicSoftExplosionGreen.prefab using Guid(62bc425171c9c964ba37f4fde2b18e46) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '785fa4919fab5687aac7bfeb33cce17c') in 0.0206306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionPink.prefab
+  artifactKey: Guid(f8232d266ed6c8043a5353ca283993ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/StarExplosion/StarExplosionPink.prefab using Guid(f8232d266ed6c8043a5353ca283993ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0036d73ad1669ab30d5d76d79ccd1294') in 0.0183641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/GrenadeExplosion/GrenadeExplosionPink.prefab
+  artifactKey: Guid(f407b02e7947b9143969a306aee2b85c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/GrenadeExplosion/GrenadeExplosionPink.prefab using Guid(f407b02e7947b9143969a306aee2b85c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7f58783aedbc170ad473e2e7845a68dd') in 0.0206841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionBlue.prefab
+  artifactKey: Guid(6d8229e80027fc54195fba9200a99df5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/NukeVerticalExplosion/NukeVerticalExplosionBlue.prefab using Guid(6d8229e80027fc54195fba9200a99df5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '63a57d6ef50b05dfeae35db3bc4c180e') in 0.0276934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148050 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Noise50.png
+  artifactKey: Guid(4e3951c538fc8a647a4a10a99b480987) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Noise50.png using Guid(4e3951c538fc8a647a4a10a99b480987) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '466488551fc844a7d5b0cab71d6164b4') in 0.0231542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Explosion/Explosion.prefab
+  artifactKey: Guid(9747e55cc13229f45bfee75afeaa540c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Prefabs/Explosion/Explosion.prefab using Guid(9747e55cc13229f45bfee75afeaa540c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6327a9bf5abb7057f4fedc572e4fac78') in 0.1760134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Gradient12.png
+  artifactKey: Guid(32a2a0fff0c45634fb83d8d541ab67a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Gradient12.png using Guid(32a2a0fff0c45634fb83d8d541ab67a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a97505164bcf686403bb74d2822a9e0') in 0.0214026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/URP and HDRP patches
+  artifactKey: Guid(0b8dbe0c6ed7eee489459f1c491f6ea4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/URP and HDRP patches using Guid(0b8dbe0c6ed7eee489459f1c491f6ea4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0cb0b21b0ae39a0dbfa135401e254b1') in 0.0106441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/SmokeCone1.fbx
+  artifactKey: Guid(732ac66c40e07af45938ae10b1107d0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Models/SmokeCone1.fbx using Guid(732ac66c40e07af45938ae10b1107d0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c10c472e8f3fbd164051dc080ed41116') in 0.03265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140188 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Spiky/FlamethrowerSpikyRed.prefab
+  artifactKey: Guid(0d9f25f0bd58c9144a4abeef1afcc788) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Spiky/FlamethrowerSpikyRed.prefab using Guid(0d9f25f0bd58c9144a4abeef1afcc788) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c190f19d3a4df79633127e0c8244d2a7') in 0.0178319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FireballSoft/FireballSoftMissileGreen.prefab
+  artifactKey: Guid(b3b1bbb7044543c4c9355bbe7b065911) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/FireballSoft/FireballSoftMissileGreen.prefab using Guid(b3b1bbb7044543c4c9355bbe7b065911) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0f10d398c1d7ff5cb1c38c557bcdacd4') in 0.0186068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Flash/FlashMissileYellow.prefab
+  artifactKey: Guid(c787459d7b28c9a4ab701b1720cef097) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Flash/FlashMissileYellow.prefab using Guid(c787459d7b28c9a4ab701b1720cef097) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '75f8db5a00530d3bbe6e4e25bd1d050c') in 0.01971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab
+  artifactKey: Guid(b73366db2a2695c46a59adb7555604e9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Magic/MagicMissilePink.prefab using Guid(b73366db2a2695c46a59adb7555604e9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e03d1629d3e023246a9a04545fdd7948') in 0.0206214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LiquidMuzzle/LiquidMuzzleAcid.prefab
+  artifactKey: Guid(d7ee09150d512054e8d210f9d0a31bc6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LiquidMuzzle/LiquidMuzzleAcid.prefab using Guid(d7ee09150d512054e8d210f9d0a31bc6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c9fb7e46278f0c86400946c5548ab61e') in 0.0282411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FireballSharp/FireballSharpMissilePink.prefab
+  artifactKey: Guid(bcd7f1f45336e164389fb03909715d12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/FireballSharp/FireballSharpMissilePink.prefab using Guid(bcd7f1f45336e164389fb03909715d12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2153dbfc129dd10cb98efa8c7a8daf74') in 0.0227077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Fireball/FireballMissileFire.prefab
+  artifactKey: Guid(3b671081e44be1c4aa4355e8ba6e8a5e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Fireball/FireballMissileFire.prefab using Guid(3b671081e44be1c4aa4355e8ba6e8a5e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f9d8e981ec5ae85326d263bf562b8504') in 0.0231745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzleGreen.prefab
+  artifactKey: Guid(b812b96d8cdb67b48b7e6da077dbcab2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletMuzzle/BulletMuzzleGreen.prefab using Guid(b812b96d8cdb67b48b7e6da077dbcab2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3fd1ab0c73d4ba657ee1c974ebb9046b') in 0.0151289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466220 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleGreen.prefab
+  artifactKey: Guid(700d344a1e4cee64589e8071ee3fb12b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleGreen.prefab using Guid(700d344a1e4cee64589e8071ee3fb12b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '07ec4df425c9937fec8228f2ded01fc5') in 0.0198068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Nova/Fire/NovaFireGreen.prefab
+  artifactKey: Guid(fe954fe78988dd34d97f7c9b0341112a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Nova/Fire/NovaFireGreen.prefab using Guid(fe954fe78988dd34d97f7c9b0341112a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2823af91f40331ad2f42da7d329482bc') in 0.0204514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Emojis/- Misc/EmojiPoop.prefab
+  artifactKey: Guid(f9e6992e06bbb0442a152d0115027bf3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Emojis/- Misc/EmojiPoop.prefab using Guid(f9e6992e06bbb0442a152d0115027bf3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8b1bfbb9b36cce9e130e371ff9092b3e') in 0.0167031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Nova/Standard/NovaBlue.prefab
+  artifactKey: Guid(644ecb149bc651142a6637ca6bb47dd6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Nova/Standard/NovaBlue.prefab using Guid(644ecb149bc651142a6637ca6bb47dd6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7dfb74e4c84801fe3777967eaca365a6') in 0.0291573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerRed.prefab
+  artifactKey: Guid(f6829b268188be1469fe0aa38cd28413) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Confetti/Shower/ConfettiShowerRed.prefab using Guid(f6829b268188be1469fe0aa38cd28413) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4b140689ae372fe88ad6631bdf2f4cee') in 0.0213985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/SparkleMuzzle/SparkleMuzzleGreen.prefab
+  artifactKey: Guid(44527fd0fe2a2a847a45d3839754d448) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/SparkleMuzzle/SparkleMuzzleGreen.prefab using Guid(44527fd0fe2a2a847a45d3839754d448) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '095b217c9b5974ccbcc7cd013334ae70') in 0.0161974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Lightning/Sharp Strike/LightningStrikeSharpBlue.prefab
+  artifactKey: Guid(0e953c794d5f3f74da4bc1bc07249ea6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Lightning/Sharp Strike/LightningStrikeSharpBlue.prefab using Guid(0e953c794d5f3f74da4bc1bc07249ea6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd9892f660c44f520d74d48b3da6bd974') in 0.0170831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Weather/Wind & Leaves/FallingLeaves.prefab
+  artifactKey: Guid(deeb8cafca0af284e92a057261d17723) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Weather/Wind & Leaves/FallingLeaves.prefab using Guid(deeb8cafca0af284e92a057261d17723) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '18b8550227c2a87a36d5a3cc807d4def') in 0.0230462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246630 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpRed.prefab
+  artifactKey: Guid(0b3290bbf8a12354887e608a61e4f86a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpRed.prefab using Guid(0b3290bbf8a12354887e608a61e4f86a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0dd7822d68889d4564544bc6b668dcae') in 0.0172954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Fire/Soft/Torch Additive/SoftFireAdditiveBlue.prefab
+  artifactKey: Guid(31f1a82435965944bb6d0f5989c42f1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Fire/Soft/Torch Additive/SoftFireAdditiveBlue.prefab using Guid(31f1a82435965944bb6d0f5989c42f1e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bbd77847bee668a10e7a6b9f8321431d') in 0.017544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZoneWall/BasicZoneWallGreen.prefab
+  artifactKey: Guid(dff0fd5524b08754e9e2b68478c827b3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Zone/BasicZoneWall/BasicZoneWallGreen.prefab using Guid(dff0fd5524b08754e9e2b68478c827b3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fecc84b1c08ef38fdd263e1179c48848') in 0.0232103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Water/Flowing/Soft/WaterRippleSoft.prefab
+  artifactKey: Guid(bb19756963938ec4ca798bb0189fce57) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Water/Flowing/Soft/WaterRippleSoft.prefab using Guid(bb19756963938ec4ca798bb0189fce57) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd75b79d1b27253e4069c2e8cbed165d7') in 0.0157787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupActivate/PowerupActivatePurple.prefab
+  artifactKey: Guid(ec7286429da0ad74dbfaf9940406e5e1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupActivate/PowerupActivatePurple.prefab using Guid(ec7286429da0ad74dbfaf9940406e5e1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4b508d52021f2c7c787b48bc8deee7df') in 0.0144463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowWhite.prefab
+  artifactKey: Guid(b7fa0f127c288494d9360e7ad65ecc17) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowWhite.prefab using Guid(b7fa0f127c288494d9360e7ad65ecc17) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b56e51fb2d24bfbaecbb2a6dd704cf60') in 0.0207723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb/GlowOrbBlue.prefab
+  artifactKey: Guid(0a27a995f3451f741b32f5f6bf27155b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/GlowOrb/GlowOrbBlue.prefab using Guid(0a27a995f3451f741b32f5f6bf27155b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b3409dda9612951a2acc4f5a58758df6') in 0.0163835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Sword/Slash/SwordSlashThin/SwordSlashThinBlue.prefab
+  artifactKey: Guid(baab5ebf23d76d7419c4766ee0f371f7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Sword/Slash/SwordSlashThin/SwordSlashThinBlue.prefab using Guid(baab5ebf23d76d7419c4766ee0f371f7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ee635a80ebc8a6b4c3e4f6ecc3f98ffc') in 0.0192365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Level Up/Nova/LevelupNovaGreen.prefab
+  artifactKey: Guid(d13a6f43dbf17f6419ebe0374db2c2fd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Level Up/Nova/LevelupNovaGreen.prefab using Guid(d13a6f43dbf17f6419ebe0374db2c2fd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '73be7c6369ef851af20dee1f542b54c5') in 0.0277188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/Directional/ToonPunchHeavy.prefab
+  artifactKey: Guid(77aff4f1c9d07704bafd856e02a46ac9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/Directional/ToonPunchHeavy.prefab using Guid(77aff4f1c9d07704bafd856e02a46ac9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a24c8554d8972ea21a13a704e2573b4d') in 0.0162383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Water/Flowing/Transparent/WaterSplashTinyTrsp.prefab
+  artifactKey: Guid(f4bfd9255bc6d18439035306986c1412) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Water/Flowing/Transparent/WaterSplashTinyTrsp.prefab using Guid(f4bfd9255bc6d18439035306986c1412) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '68e2dcfdd06e87096cf19b058b744d57') in 0.0152181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbFireElemental.prefab
+  artifactKey: Guid(e3341cd0b29d79a4895de26f271c310d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbFireElemental.prefab using Guid(e3341cd0b29d79a4895de26f271c310d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7c351b08dfd77b4d8696aa4161c27052') in 0.0167721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Metal/PowerboxMetalShield.prefab
+  artifactKey: Guid(69a5fae01d0854c4990a7433260dddc3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Metal/PowerboxMetalShield.prefab using Guid(69a5fae01d0854c4990a7433260dddc3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8e0586e5060a7a1bfaae02fc668de9eb') in 0.0174352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbStormElemental.prefab
+  artifactKey: Guid(8813e80d6641f0b41b9590f58211f3e2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbStormElemental.prefab using Guid(8813e80d6641f0b41b9590f58211f3e2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'eebe22ac99aff57c0dbdb8050ab82648') in 0.0181831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Sci-Fi/PowerOrbSciFi03.prefab
+  artifactKey: Guid(343f26c4dc79f204f950a57bd6947d4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Sci-Fi/PowerOrbSciFi03.prefab using Guid(343f26c4dc79f204f950a57bd6947d4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b3e53633491e261242f207233f20f1b7') in 0.0145542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Water/Flowing/Soft/WaterDripFlowSoft.prefab
+  artifactKey: Guid(9b70cd7433df3484396fdec7eae38f39) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Water/Flowing/Soft/WaterDripFlowSoft.prefab using Guid(9b70cd7433df3484396fdec7eae38f39) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '315ddd2084964c22a1ab7cc4c9969bf2') in 0.0147882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowYellow.prefab
+  artifactKey: Guid(df9e9f9e0ab716847be4c7cc44fe5af4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowYellow.prefab using Guid(df9e9f9e0ab716847be4c7cc44fe5af4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1b86aab246e053954d904df156e82b24') in 0.0221474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Magic/Aura Soft
+  artifactKey: Guid(b1b3ab3ed0bffeb408af9cfe3e1040f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Magic/Aura Soft using Guid(b1b3ab3ed0bffeb408af9cfe3e1040f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0345c30401278a367f9656efd3a45473') in 0.0119943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastRainbow.prefab
+  artifactKey: Guid(36bdc02b23d9ca94d93bd715c0cca5c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastRainbow.prefab using Guid(36bdc02b23d9ca94d93bd715c0cca5c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd148281a89c14c649c002f42939cf38e') in 0.0560297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Water/WaterSplatDirectional2.prefab
+  artifactKey: Guid(03446c2668086264f9ea39cb12c14d36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Water/WaterSplatDirectional2.prefab using Guid(03446c2668086264f9ea39cb12c14d36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99d2d5ca189fa0376e838c69ee1bafde') in 0.0830793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Sounds/Toon fire buff.wav
+  artifactKey: Guid(d872e44d259c2fb4c8a1b2775808e40b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Sounds/Toon fire buff.wav using Guid(d872e44d259c2fb4c8a1b2775808e40b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c372b04d631afb30f9acd38b72f4314e') in 0.0604641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Sparkle/TinySparkle.prefab
+  artifactKey: Guid(b043edfe6ed22be46b3d939fd3f3e5bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Sparkle/TinySparkle.prefab using Guid(b043edfe6ed22be46b3d939fd3f3e5bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76a87303d50e0272e409995454cb986c') in 0.0635069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Flat/PowerboxFire2.prefab
+  artifactKey: Guid(678bfb28df3c5764287f7578330dbdc9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Flat/PowerboxFire2.prefab using Guid(678bfb28df3c5764287f7578330dbdc9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a5d3657f779cd9166a741a66e204f514') in 0.0155475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.278791 seconds.
+  path: Assets/Epic Toon FX/Textures/wave_soft.png
+  artifactKey: Guid(34bce86b60bfc5341a004f5d17aa7349) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Textures/wave_soft.png using Guid(34bce86b60bfc5341a004f5d17aa7349) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ebf5d1b0095bcffe23ce4608a196c22') in 0.0298397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Lightning/Soft Orb
+  artifactKey: Guid(c31a5e568e33be94ea0bbc9818a4dba2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Lightning/Soft Orb using Guid(c31a5e568e33be94ea0bbc9818a4dba2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e33eb3de43b40e917fd5ad6994d6899') in 0.0144327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Flat/PowerboxBullet.prefab
+  artifactKey: Guid(d26b2c679e943854989969cf132a16d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Flat/PowerboxBullet.prefab using Guid(d26b2c679e943854989969cf132a16d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43d9ae0e88ff4c995942ad649c074228') in 0.0611372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Water/Bubbles/BubbleTrail.prefab
+  artifactKey: Guid(5dc2b5550eec55d47b8322e441e1d169) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Water/Bubbles/BubbleTrail.prefab using Guid(5dc2b5550eec55d47b8322e441e1d169) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df29f2ac5fa739a22d49845af60857f7') in 0.0585209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleBurst/ItemSparkleBurstYellow.prefab
+  artifactKey: Guid(0332f6b7ceb64594f9bf84901361a4f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleBurst/ItemSparkleBurstYellow.prefab using Guid(0332f6b7ceb64594f9bf84901361a4f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd689cc7499edaa3cefde72c91339872') in 0.0596303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/Flash/FlashMissileGreenOBJ.prefab
+  artifactKey: Guid(8473f3d05e480fb43a51a216064bbd33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/Flash/FlashMissileGreenOBJ.prefab using Guid(8473f3d05e480fb43a51a216064bbd33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8df1f6d2415fc2dd198f215456677f38') in 0.0540706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodShowerLoop2D.prefab
+  artifactKey: Guid(83c18340a7ab40841ab1bd9102120990) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodShowerLoop2D.prefab using Guid(83c18340a7ab40841ab1bd9102120990) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99a044acf5663fb39b3c024333977687') in 0.0592141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Sadness/EmojiSad.prefab
+  artifactKey: Guid(22639b6f8f7b8c943bca8000475a5f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Sadness/EmojiSad.prefab using Guid(22639b6f8f7b8c943bca8000475a5f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0539d545326316d952220ba9350e662') in 0.0524386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

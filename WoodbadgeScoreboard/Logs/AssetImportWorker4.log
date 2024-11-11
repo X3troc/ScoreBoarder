@@ -15,7 +15,7 @@ D:/Development/Unity/SourceControlled/ScoreBoarder/WoodbadgeScoreboard
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50360
+58210
 -job-worker-count
 15
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Development/Unity/SourceControlled/ScoreBoarder/WoodbadgeScoreboard
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [48636]  Target information:
+Player connection [16200]  Target information:
 
-Player connection [48636]  * "[IP] 192.168.1.124 [Port] 0 [Flags] 2 [Guid] 826928488 [EditorId] 826928488 [Version] 1048832 [Id] WindowsEditor(7,RyzenPhoenix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16200]  * "[IP] 192.168.1.124 [Port] 0 [Flags] 2 [Guid] 1057442484 [EditorId] 1057442484 [Version] 1048832 [Id] WindowsEditor(7,RyzenPhoenix) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [48636] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [48636] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16200] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16200] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 15
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
@@ -91,50 +91,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003656 seconds.
-- Loaded All Assemblies, in  0.292 seconds
+Registered in 0.004413 seconds.
+- Loaded All Assemblies, in  0.762 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.257 seconds
-Domain Reload Profiling: 547ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.687 seconds
+Domain Reload Profiling: 1448ms
+	BeginReloadAssembly (505ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (99ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (500ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (134ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (258ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (688ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (227ms)
+		SetupLoadedEditorAssemblies (630ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -142,964 +142,740 @@ Domain Reload Profiling: 547ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.707 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.202 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.562 seconds
-Domain Reload Profiling: 1267ms
-	BeginReloadAssembly (330ms)
+- Finished resetting the current domain, in  2.297 seconds
+Domain Reload Profiling: 4493ms
+	BeginReloadAssembly (974ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (299ms)
-		LoadAssemblies (226ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1090ms)
+		LoadAssemblies (852ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (103ms)
-			BuildScriptInfoCaches (36ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (562ms)
+		AnalyzeDomain (549ms)
+			TypeCache.Refresh (376ms)
+				TypeCache.ScanAssembly (341ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (397ms)
+		SetupLoadedEditorAssemblies (1749ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (1331ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3780 unused Assets / (0.9 MB). Loaded Objects now: 4403.
-Memory consumption went from 126.6 MB to 125.7 MB.
-Total: 5.104100 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.194000 ms MarkObjects: 3.886100 ms  DeleteObjects: 0.688200 ms)
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6070 unused Assets / (4.7 MB). Loaded Objects now: 6854.
+Memory consumption went from 197.5 MB to 192.8 MB.
+Total: 17.259400 ms (FindLiveObjects: 1.445800 ms CreateObjectMapping: 0.807100 ms MarkObjects: 10.776500 ms  DeleteObjects: 4.228200 ms)
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.481 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.562 seconds
-Domain Reload Profiling: 1042ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (264ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (562ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (390ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.8 MB). Loaded Objects now: 4404.
-Memory consumption went from 119.2 MB to 118.4 MB.
-Total: 5.287400 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.168700 ms MarkObjects: 4.108800 ms  DeleteObjects: 0.663700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.476 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.562 seconds
-Domain Reload Profiling: 1037ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (222ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (114ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (563ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (386ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (313ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.9 MB). Loaded Objects now: 4404.
-Memory consumption went from 119.1 MB to 118.2 MB.
-Total: 5.527100 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.163000 ms MarkObjects: 4.248000 ms  DeleteObjects: 0.771300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.470 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.553 seconds
-Domain Reload Profiling: 1023ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (225ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (554ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (375ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (302ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.8 MB). Loaded Objects now: 4404.
-Memory consumption went from 119.1 MB to 118.3 MB.
-Total: 5.669900 ms (FindLiveObjects: 0.367300 ms CreateObjectMapping: 0.175500 ms MarkObjects: 4.446900 ms  DeleteObjects: 0.679400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.473 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.560 seconds
-Domain Reload Profiling: 1032ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (221ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (560ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (386ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.9 MB). Loaded Objects now: 4404.
-Memory consumption went from 119.1 MB to 118.3 MB.
-Total: 5.697400 ms (FindLiveObjects: 0.376600 ms CreateObjectMapping: 0.175300 ms MarkObjects: 4.448000 ms  DeleteObjects: 0.696900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.470 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.552 seconds
-Domain Reload Profiling: 1022ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (262ms)
-		LoadAssemblies (222ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (107ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (553ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (376ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (303ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.8 MB). Loaded Objects now: 4404.
-Memory consumption went from 121.1 MB to 120.3 MB.
-Total: 6.700400 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.261200 ms MarkObjects: 5.253500 ms  DeleteObjects: 0.781900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.550 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.553 seconds
-Domain Reload Profiling: 1102ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (345ms)
-		LoadAssemblies (296ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (115ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (553ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (371ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (301ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.9 MB). Loaded Objects now: 4404.
-Memory consumption went from 121.1 MB to 120.2 MB.
-Total: 6.194000 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.188000 ms MarkObjects: 4.664800 ms  DeleteObjects: 0.913200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3771 unused Assets / (0.8 MB). Loaded Objects now: 4404.
-Memory consumption went from 121.3 MB to 120.5 MB.
-Total: 6.053000 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.159300 ms MarkObjects: 4.862100 ms  DeleteObjects: 0.700900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.488 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.551 seconds
-Domain Reload Profiling: 1037ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (231ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (551ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.9 MB). Loaded Objects now: 4404.
-Memory consumption went from 121.1 MB to 120.2 MB.
-Total: 5.121400 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.159200 ms MarkObjects: 3.940200 ms  DeleteObjects: 0.692700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.479 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.572 seconds
-Domain Reload Profiling: 1050ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (226ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (111ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (572ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (390ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.7 MB). Loaded Objects now: 4404.
-Memory consumption went from 121.1 MB to 120.4 MB.
-Total: 6.384000 ms (FindLiveObjects: 0.410700 ms CreateObjectMapping: 0.178300 ms MarkObjects: 5.121000 ms  DeleteObjects: 0.673200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.488 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.558 seconds
-Domain Reload Profiling: 1045ms
-	BeginReloadAssembly (157ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (227ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (112ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (558ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (384ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.8 MB). Loaded Objects now: 4404.
-Memory consumption went from 121.1 MB to 120.3 MB.
-Total: 6.374600 ms (FindLiveObjects: 0.436900 ms CreateObjectMapping: 0.191500 ms MarkObjects: 4.938200 ms  DeleteObjects: 0.807000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3771 unused Assets / (0.8 MB). Loaded Objects now: 4404.
-Memory consumption went from 121.3 MB to 120.5 MB.
-Total: 5.332900 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.171100 ms MarkObjects: 4.184400 ms  DeleteObjects: 0.639500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.509 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.550 seconds
-Domain Reload Profiling: 1060ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (302ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (128ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (551ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.8 MB). Loaded Objects now: 4404.
-Memory consumption went from 123.0 MB to 122.2 MB.
-Total: 5.049800 ms (FindLiveObjects: 0.341100 ms CreateObjectMapping: 0.215700 ms MarkObjects: 3.872200 ms  DeleteObjects: 0.620300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.480 seconds
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.568 seconds
-Domain Reload Profiling: 1048ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (229ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (569ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (1.2 MB). Loaded Objects now: 4404.
-Memory consumption went from 123.0 MB to 121.8 MB.
-Total: 7.033300 ms (FindLiveObjects: 0.394100 ms CreateObjectMapping: 0.182200 ms MarkObjects: 5.334800 ms  DeleteObjects: 1.121400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.478 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.565 seconds
-Domain Reload Profiling: 1043ms
-	BeginReloadAssembly (148ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (222ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (117ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (565ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.9 MB). Loaded Objects now: 4404.
-Memory consumption went from 123.0 MB to 122.1 MB.
-Total: 6.597300 ms (FindLiveObjects: 0.373300 ms CreateObjectMapping: 0.175700 ms MarkObjects: 5.251100 ms  DeleteObjects: 0.796300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.471 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.562 seconds
-Domain Reload Profiling: 1033ms
-	BeginReloadAssembly (147ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (267ms)
-		LoadAssemblies (221ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (113ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (562ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.7 MB). Loaded Objects now: 4404.
-Memory consumption went from 123.0 MB to 122.3 MB.
-Total: 6.069700 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.175900 ms MarkObjects: 4.702200 ms  DeleteObjects: 0.816000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.538 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.554 seconds
-Domain Reload Profiling: 1092ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (325ms)
-		LoadAssemblies (283ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (112ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (555ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (376ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (301ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.9 MB). Loaded Objects now: 4404.
-Memory consumption went from 123.0 MB to 122.2 MB.
-Total: 6.411100 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.227300 ms MarkObjects: 5.024500 ms  DeleteObjects: 0.730800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.487 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.561 seconds
-Domain Reload Profiling: 1047ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (234ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (561ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (385ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (1.6 MB). Loaded Objects now: 4404.
-Memory consumption went from 123.0 MB to 121.4 MB.
-Total: 6.799200 ms (FindLiveObjects: 0.418300 ms CreateObjectMapping: 0.195300 ms MarkObjects: 4.487600 ms  DeleteObjects: 1.696800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.532 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.554 seconds
-Domain Reload Profiling: 1085ms
-	BeginReloadAssembly (164ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (295ms)
-		LoadAssemblies (247ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (125ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (554ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (377ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (303ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (0.7 MB). Loaded Objects now: 4404.
-Memory consumption went from 123.0 MB to 122.3 MB.
-Total: 7.253600 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.208600 ms MarkObjects: 5.661000 ms  DeleteObjects: 0.937000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 572495.493306 seconds.
-  path: Assets/Sprites/Tiki/BearTikiTiki.png
-  artifactKey: Guid(96baec64140c3c547ad65139baf5d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/BearTikiTiki.png using Guid(96baec64140c3c547ad65139baf5d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '041e12801e5994545a59849eba926b60') in 0.1545697 seconds
+  Time since last request: 575038.729863 seconds.
+  path: Assets/Epic Toon FX/Demo/Scenes/etfx_combat.unity
+  artifactKey: Guid(49c44520099ebe541a86e958bb498f24) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Scenes/etfx_combat.unity using Guid(49c44520099ebe541a86e958bb498f24) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Epic Toon FX/Demo/Scenes/etfx_combat.unity additively'
+Loaded scene 'Assets/Epic Toon FX/Demo/Scenes/etfx_combat.unity'
+	Deserialize:            39.878 ms
+	Integration:            69.295 ms
+	Integration of assets:  5.282 ms
+	Thread Wait Time:       0.990 ms
+	Total Operation Time:   115.445 ms
+ -> (artifact id: '9065e0c9b182685abd007f357bf73d72') in 0.9133723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 529
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures
+  artifactKey: Guid(6e5c6d5e25574122a7a12dbdbbeed156) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures using Guid(6e5c6d5e25574122a7a12dbdbbeed156) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c9bad5d393c2070f68fa62a6ed3b599') in 0.020941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4101d51cd9d5692ca521af48b9879c8') in 0.0814709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/EnergyNova/NovaBlueOBJ.prefab
+  artifactKey: Guid(ea2c1089ac92f314ca5ded5483c16012) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/EnergyNova/NovaBlueOBJ.prefab using Guid(ea2c1089ac92f314ca5ded5483c16012) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '010fabe36691be7d58922d471b99b903') in 0.0560417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '401f5fd2376ff604063f07f81d9fe01e') in 0.038103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa666309ab2ea9988696e117b97e2607') in 0.0427594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Demo/Scenes/etfx_powerups3.unity
+  artifactKey: Guid(98e92c2c564833146ba70ba04fb6ac3d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Scenes/etfx_powerups3.unity using Guid(98e92c2c564833146ba70ba04fb6ac3d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Epic Toon FX/Demo/Scenes/etfx_powerups3.unity additively'
+Loaded scene 'Assets/Epic Toon FX/Demo/Scenes/etfx_powerups3.unity'
+	Deserialize:            188.250 ms
+	Integration:            1755.967 ms
+	Integration of assets:  0.609 ms
+	Thread Wait Time:       -0.009 ms
+	Total Operation Time:   1944.818 ms
+ -> (artifact id: 'eaf4606b4777e5831f1516693e46e9f1') in 2.1782904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1164
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Crash.prefab
+  artifactKey: Guid(ef79a5ac2d516944bb45eea8a0054109) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Crash.prefab using Guid(ef79a5ac2d516944bb45eea8a0054109) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '99334f9f72802a0b50c2a70802afacfa') in 0.0714477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Demo/Missile Prefabs/Soul/SoulPurpleOBJ.prefab
+  artifactKey: Guid(6a8efa3c961fab149819a2dd4a7ca5d6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Demo/Missile Prefabs/Soul/SoulPurpleOBJ.prefab using Guid(6a8efa3c961fab149819a2dd4a7ca5d6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9a0d5abd50c2c9a3d11945d05ec0bfcd') in 0.0575729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/RespawnExplosion.prefab
+  artifactKey: Guid(dd46de4320f3d1b4087b5f9c0a24ab36) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/RespawnExplosion.prefab using Guid(dd46de4320f3d1b4087b5f9c0a24ab36) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7e0c9595ee7b6945b88640172af16b1a') in 0.0293242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51c236b326df14ca82798768f744faec') in 0.0735657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.808153 seconds.
+  path: Assets/Materials/CubeMat5.mat
+  artifactKey: Guid(344e7594950782146ba46663dcdacd7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/CubeMat5.mat using Guid(344e7594950782146ba46663dcdacd7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6aa715dd37d3f557a3b8970c05ff6380') in 0.0230912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Shield/ShieldSoftPurple.prefab
+  artifactKey: Guid(b8cba1113eab4ae41951ebb3c43200d1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Shield/ShieldSoftPurple.prefab using Guid(b8cba1113eab4ae41951ebb3c43200d1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0d55ce78892fc65e17f9c8db07fd04d5') in 0.026664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Hearts/HeartStream.prefab
+  artifactKey: Guid(576c0f12a828ddd4db1d6d4401702701) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Hearts/HeartStream.prefab using Guid(576c0f12a828ddd4db1d6d4401702701) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '263740171ccd37434781a45610d91ace') in 0.0201955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodShowerLoop2D.prefab
+  artifactKey: Guid(880df82233044db42b79f928ad6df99b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs 2D/Blood/Yellow/YellowBloodShowerLoop2D.prefab using Guid(880df82233044db42b79f928ad6df99b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6c7f54b4cba180e60298e56a1ccba79f') in 0.0223643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Cards/CardglowType04.prefab
+  artifactKey: Guid(84057e0cb9821ce439e07503c43b3e78) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Cards/CardglowType04.prefab using Guid(84057e0cb9821ce439e07503c43b3e78) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2048fae4ed958a709b0a43215d31cf69') in 0.0207245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatDirectional2D.prefab
+  artifactKey: Guid(9fc1afc1190c21b459bff8bed1d9ec02) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs 2D/Blood/Red/BloodSplatDirectional2D.prefab using Guid(9fc1afc1190c21b459bff8bed1d9ec02) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b1c9e85f3a07ac47872950f2a9c0c801') in 0.0265894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Smoke/CigaretteSmoke.prefab
+  artifactKey: Guid(81eea31af330e514294ea28c265df544) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Smoke/CigaretteSmoke.prefab using Guid(81eea31af330e514294ea28c265df544) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1566494992caa556374ffa8aa073ebc9') in 0.0231942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/QuadToCircle.fbx
+  artifactKey: Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Models/QuadToCircle.fbx using Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9932ac0261e9d4fe0eae2b6aa606dbd') in 0.1164024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.720344 seconds.
+  path: Assets/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterFall2D.prefab
+  artifactKey: Guid(2cefd564ba784214e918ef4ecfe7f700) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs 2D/Water/Flowing/WaterFall2D.prefab using Guid(2cefd564ba784214e918ef4ecfe7f700) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8e91649f7335157386eb1971e8a87a9d') in 0.0233019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalGrass.prefab
+  artifactKey: Guid(5bc227c2a45a7e44ea8521ddb446b620) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Decals/Bullet Decal/BulletDecalGrass.prefab using Guid(5bc227c2a45a7e44ea8521ddb446b620) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0783b476e9f7e38414b9debe73d3050f') in 0.0738581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatWide2.prefab
+  artifactKey: Guid(b564ed87ab8796240a8f5e7bf5f65246) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Blood/Green/GreenBloodSplatWide2.prefab using Guid(b564ed87ab8796240a8f5e7bf5f65246) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd8c9595c3a6faeabeb03f0e8d9a5dded') in 0.0481685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftFightAction.prefab
+  artifactKey: Guid(2d18f84774eae954c9002a33c62fbe8b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Brawling/Soft/SoftFightAction.prefab using Guid(2d18f84774eae954c9002a33c62fbe8b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c780ecc32256e3ed541cebcf473cca92') in 0.0237131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionGreen.prefab
+  artifactKey: Guid(1fe35c3ac77275e4d81bc09fcde78105) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/BulletFatExplosion/BulletFatExplosionGreen.prefab using Guid(1fe35c3ac77275e4d81bc09fcde78105) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f17fd8ef7e911841a6a4d2ea4392a845') in 0.024629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.786018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/FireballSoftExplosion/ExplosionFireballSoftFire.prefab
+  artifactKey: Guid(0f22b44ec7df41a49adb3c3269118434) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/FireballSoftExplosion/ExplosionFireballSoftFire.prefab using Guid(0f22b44ec7df41a49adb3c3269118434) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0b92bad4d739c4d8cc9e6dbf0690a0c1') in 0.025949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionAcidBig.prefab
+  artifactKey: Guid(d2c389d721b3e97408fddc78db6e4cc0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionAcidBig.prefab using Guid(d2c389d721b3e97408fddc78db6e4cc0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8d8ea3ecfe5cb325410951072d85838a') in 0.0355202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionAcid.prefab
+  artifactKey: Guid(eb8eb977f3a1f0341ac06e638d078a1c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/LiquidExplosion/LiquidExplosionAcid.prefab using Guid(eb8eb977f3a1f0341ac06e638d078a1c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '510aafb3e9a68a005eb8c19b1cf6dfe5') in 0.0253778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Sharp/FlamethrowerSharpBlue.prefab
+  artifactKey: Guid(0c348cf1fcb14bd43841cbbd03c67228) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Sharp/FlamethrowerSharpBlue.prefab using Guid(0c348cf1fcb14bd43841cbbd03c67228) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3f6d13b234e8b0771fe6e3a7d0318e82') in 0.0235507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NovaSmallExplosion/ExplosionNovaSmallBlue.prefab
+  artifactKey: Guid(0a09a3a2bbd2966428434f3fade79433) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/NovaSmallExplosion/ExplosionNovaSmallBlue.prefab using Guid(0a09a3a2bbd2966428434f3fade79433) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a5771c9070ba4d1cdf9ed6ae19b0b0b7') in 0.0209498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/NovaSoftExplosion/ExplosionNovaSoftBlue.prefab
+  artifactKey: Guid(4d338de4aee3c554bb9ac71eb9ee293d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/NovaSoftExplosion/ExplosionNovaSoftBlue.prefab using Guid(4d338de4aee3c554bb9ac71eb9ee293d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8b120b9a2d62cb4eb38d8748db263a37') in 0.0186854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137180 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/WaterF2.png
+  artifactKey: Guid(b22013b4a66bd8044a49335f5ba731a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Textures/WaterF2.png using Guid(b22013b4a66bd8044a49335f5ba731a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd2b96b99e51073db75ccf23205d9326') in 0.0266372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials
+  artifactKey: Guid(5ad79aea62b73b5409daf3561f7677c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Materials using Guid(5ad79aea62b73b5409daf3561f7677c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9a791f2a1c0fde97c84c069ca5e52a4') in 0.0117799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Demo scene/Demo Toon VFX 2.unity
+  artifactKey: Guid(d41597bc3a4b08744875da8b9abfcb7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Demo scene/Demo Toon VFX 2.unity using Guid(d41597bc3a4b08744875da8b9abfcb7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '325ad0e3a75c06f6abcfb68c82ce7914') in 0.0206622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail63bts.mat
+  artifactKey: Guid(8ae00a35f620a5646b48512206745719) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail63bts.mat using Guid(8ae00a35f620a5646b48512206745719) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '088c12812c36b34b845aef855c78381b') in 0.0181745 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tiki/BuffaloTikiTP.png
-  artifactKey: Guid(0a44d070d3be2f9439cf8502fc437989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/BuffaloTikiTP.png using Guid(0a44d070d3be2f9439cf8502fc437989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b3bebf58e8e23f70bb5d3f2cafc0451') in 0.0311424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Fire11.png
+  artifactKey: Guid(ae1918d6175c439449499ed71db43e28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Fire11.png using Guid(ae1918d6175c439449499ed71db43e28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '685181c7da60f27613fd88a41d1c2c16') in 0.0244436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Sprites/Tiki/EagleTikiTP.png
-  artifactKey: Guid(bc216a1c66761d64f88c03d4f30b54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/EagleTikiTP.png using Guid(bc216a1c66761d64f88c03d4f30b54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9566498d7fc9419167886e0a457e921a') in 0.0128305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/Epic toon VFX 2/Demo scene
+  artifactKey: Guid(d203ed08d341bd3428c4a42fbd37c5db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/Epic toon VFX 2/Demo scene using Guid(d203ed08d341bd3428c4a42fbd37c5db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '614b1e88cd1b112bd3a3c2056a866bb3') in 0.0111737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Tiki/BeaverTikiTP.png
-  artifactKey: Guid(f0a5de40bf0622344bac9ea9eddc8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/BeaverTikiTP.png using Guid(f0a5de40bf0622344bac9ea9eddc8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e425af2ac9b70b3adb33d97c9bb1da8c') in 0.0130336 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/HSFiles/Textures/Point19.png
+  artifactKey: Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Textures/Point19.png using Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16bb717deb70bc9b9c7c89e8559837c8') in 0.0213158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Tiki/BobwhiteTikiTP.png
-  artifactKey: Guid(b8e8a12864620da409266aee15ced86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiki/BobwhiteTikiTP.png using Guid(b8e8a12864620da409266aee15ced86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd60ae3f6444f49c3e637886a1e67557e') in 0.0155319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Models/HalfSphere3.fbx
+  artifactKey: Guid(8daeb94efb71a1746a62d9f47a714f47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hovl Studio/HSFiles/Models/HalfSphere3.fbx using Guid(8daeb94efb71a1746a62d9f47a714f47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b060a087c4097bdd92a586fdc3891dfc') in 0.0177624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.566 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.659 seconds
-Domain Reload Profiling: 1224ms
-	BeginReloadAssembly (174ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (325ms)
-		LoadAssemblies (257ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (659ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (373ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3778 unused Assets / (1.0 MB). Loaded Objects now: 4411.
-Memory consumption went from 123.6 MB to 122.7 MB.
-Total: 6.018800 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.456300 ms MarkObjects: 4.303700 ms  DeleteObjects: 0.856600 ms)
+Received Import Request.
+  Time since last request: 0.155650 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Spiky/FlamethrowerSpikyGreen.prefab
+  artifactKey: Guid(4393ddc3cd5a82740aa0a8ade8573e7f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Spiky/FlamethrowerSpikyGreen.prefab using Guid(4393ddc3cd5a82740aa0a8ade8573e7f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9eb6ebf0ae5f397c9db529ee7a2b06ca') in 0.0276641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
-Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LightningMuzzle/LightningMuzzlePink.prefab
+  artifactKey: Guid(73400a1b3e80ea74daeb40b12f914e12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LightningMuzzle/LightningMuzzlePink.prefab using Guid(73400a1b3e80ea74daeb40b12f914e12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a9a2fca3ff69189591b847b03e59025b') in 0.0144734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/LightningSoft/LightningSoftMissileGreen.prefab
+  artifactKey: Guid(afbb4cae0ab32cd40aa3f1cd08a796cb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/LightningSoft/LightningSoftMissileGreen.prefab using Guid(afbb4cae0ab32cd40aa3f1cd08a796cb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fe3f1a0d5e3d7afda66972c5c5441042') in 0.0220649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzleFire.prefab
+  artifactKey: Guid(dddc7b1930f161e4ebdc27a4fc68bcc6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/LaserMuzzle/LaserMuzzleFire.prefab using Guid(dddc7b1930f161e4ebdc27a4fc68bcc6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7ef440a7961af63a479754204c3a0993') in 0.0198026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleGreen.prefab
+  artifactKey: Guid(5023fa96dbfa5a44cbb0314e88786a27) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/BulletFatMuzzle/BulletFatMuzzleGreen.prefab using Guid(5023fa96dbfa5a44cbb0314e88786a27) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5a837339a39449ede03b80a6e73273dc') in 0.0143193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallGreen.prefab
+  artifactKey: Guid(727e4ea27328a6e46bcd171a935685d4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Bullet/BulletSmallGreen.prefab using Guid(727e4ea27328a6e46bcd171a935685d4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'be7b4662cbff6178a89ae664327fec9a') in 0.0254494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatBlue.prefab
+  artifactKey: Guid(0e5de1d4446e4be409b2bc4025c90341) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/FatBullet/BulletMeshFatBlue.prefab using Guid(0e5de1d4446e4be409b2bc4025c90341) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '779b3a9d9fd6a53a40e8f48c2160bdf2') in 0.0245469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Sparkle/SparkleMissileBlue.prefab
+  artifactKey: Guid(455924ec43e9d1645a6e89678be3112e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Sparkle/SparkleMissileBlue.prefab using Guid(455924ec43e9d1645a6e89678be3112e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b2b3f1f01db1d27feb5578e7363ca464') in 0.0184903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Gas/GasMissilePink.prefab
+  artifactKey: Guid(633cb549b09948a428a5acf3f73ab125) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Gas/GasMissilePink.prefab using Guid(633cb549b09948a428a5acf3f73ab125) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ccc7636d336839ee986dff010a1d4973') in 0.0188549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419512 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleBlue.prefab
+  artifactKey: Guid(03dfeff0afe9122418bab1774a66566e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/MagicMuzzle/MagicMuzzleBlue.prefab using Guid(03dfeff0afe9122418bab1774a66566e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9559ecf8ae22a4187e90f6207cf29302') in 0.0215203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeDark.prefab
+  artifactKey: Guid(c4a37725ffa1ac649ad3d2a26f08edcc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Smoke/Dark/SmokeDark.prefab using Guid(c4a37725ffa1ac649ad3d2a26f08edcc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '19f7fd5e5c46b70128e960c376fdbaa9') in 0.021133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastOrangeGreen.prefab
+  artifactKey: Guid(6bc8c7b8a20b3574080cc6fa394ec725) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Confetti/Blast/ConfettiBlastOrangeGreen.prefab using Guid(6bc8c7b8a20b3574080cc6fa394ec725) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e650e0df1f7050926431a07b547e5419') in 0.022391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogBlue.prefab
+  artifactKey: Guid(ec8892b21e335f54399e40688278ac91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogBlue.prefab using Guid(ec8892b21e335f54399e40688278ac91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1d35fca1a290387be652eab1b45ebc80') in 0.0146428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogGreen.prefab
+  artifactKey: Guid(4ce7097392940144386c93b851be8a4f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Stars/StarFog/StarFogGreen.prefab using Guid(4ce7097392940144386c93b851be8a4f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '74e52e2428a5e4dd965619c2cbd1e54c') in 0.0226407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeExplosionWhite.prefab
+  artifactKey: Guid(fe394d041df1a0547990f49cf653249f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Smoke/White/SmokeExplosionWhite.prefab using Guid(fe394d041df1a0547990f49cf653249f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '80cafe70d80a8d07d8d1199923b7cf8c') in 0.0161838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowLight.prefab
+  artifactKey: Guid(c560f8ebc8a69634caa1ce24d5eb1a56) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowLight.prefab using Guid(c560f8ebc8a69634caa1ce24d5eb1a56) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd937bf6118953bdd6f8ae99042b88fe0') in 0.0127684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpBlue.prefab
+  artifactKey: Guid(583747229c17d7d47b9a05fa71e1d6f9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpBlue.prefab using Guid(583747229c17d7d47b9a05fa71e1d6f9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'eb018162543e4bf4753a3b34ea907c49') in 0.0199683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Tired/EmojiDeadTired.prefab
+  artifactKey: Guid(780f9efde9439f345a63baff480c0755) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Emojis/Tired/EmojiDeadTired.prefab using Guid(780f9efde9439f345a63baff480c0755) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5904cddbb2237130ef4541953862df0f') in 0.0172254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209836 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpGreen.prefab
+  artifactKey: Guid(0331687acfc45b94982b8629e0c49e39) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Flares/Sharp/FlareSharpGreen.prefab using Guid(0331687acfc45b94982b8629e0c49e39) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '65c4ac321efcd48d5cff352b0e87fbe4') in 0.0176671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleSoft/ItemSparkleSoftPink.prefab
+  artifactKey: Guid(6b6e64e1c81c0eb49afd3957f7a3c8ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleSoft/ItemSparkleSoftPink.prefab using Guid(6b6e64e1c81c0eb49afd3957f7a3c8ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7d3769697592f8f4de60290ba248ed66') in 0.0216675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow7.prefab
+  artifactKey: Guid(b5721d7f00f3ff442b5edf5206e106ab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerupGlow/PowerupGlow7.prefab using Guid(b5721d7f00f3ff442b5edf5206e106ab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a7b2d9dfbfbdb72b6cd8e3120366af7e') in 0.0138167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Additive/FlamethrowerAdditivePurple.prefab
+  artifactKey: Guid(1e14e551300320e4f97cc9c992b4af22) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Flamethrower/Soft/Additive/FlamethrowerAdditivePurple.prefab using Guid(1e14e551300320e4f97cc9c992b4af22) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '38e77ce7f68efcc51ea524802247fba3') in 0.0273081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Sword/- Legacy/SwordHitLegacy/SwordHitYellowLegacy.prefab
+  artifactKey: Guid(34c0bb57ead7c754589d474a7c695b41) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Sword/- Legacy/SwordHitLegacy/SwordHitYellowLegacy.prefab using Guid(34c0bb57ead7c754589d474a7c695b41) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3b4344a4fdb277579cf8f06291af4df4') in 0.0296114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleBurst/ItemSparkleBurstBlue.prefab
+  artifactKey: Guid(1d9193747d0ea3246afa0cbae59ca4ae) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleBurst/ItemSparkleBurstBlue.prefab using Guid(1d9193747d0ea3246afa0cbae59ca4ae) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e87d1f6697abbee0d06c0facfd4b8a20') in 0.022719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Fruit/Melon/MelonDirectional.prefab
+  artifactKey: Guid(4a4629ad183d795419b5698f80e27087) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Fruit/Melon/MelonDirectional.prefab using Guid(4a4629ad183d795419b5698f80e27087) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8ac608ce8f7f1b35abb168ae6442895a') in 0.0163102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Sword/Hit/SwordHitCritical/SwordHitRedCritical.prefab
+  artifactKey: Guid(bd9cbf3a6ae77524788b4bbdb5422498) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Sword/Hit/SwordHitCritical/SwordHitRedCritical.prefab using Guid(bd9cbf3a6ae77524788b4bbdb5422498) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd315ff6be0f7babd139d6f22f31ff5e5') in 0.0231304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/Radial/ToonRadialPunchExtreme.prefab
+  artifactKey: Guid(1051d24fbeade004b822fcf10b6251de) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Brawling/Toon/Radial/ToonRadialPunchExtreme.prefab using Guid(1051d24fbeade004b822fcf10b6251de) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'decb2f38c1cc3a4898cc9803023b1e2e') in 0.0267138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkle/ItemSparkleBlue.prefab
+  artifactKey: Guid(0fb0846ec7b795e4586da62f99d560a5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkle/ItemSparkleBlue.prefab using Guid(0fb0846ec7b795e4586da62f99d560a5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f04bd19385f594ebd270a1c346e6078b') in 0.0169092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Small/PowerOrbSmallPurple.prefab
+  artifactKey: Guid(62ad7f1dc429f0c42908faeccbb4687b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Small/PowerOrbSmallPurple.prefab using Guid(62ad7f1dc429f0c42908faeccbb4687b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '38ea404aff970a8fd9fd0831f92dab5d') in 0.015015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Colored/PowerboxColHeart.prefab
+  artifactKey: Guid(6bf6af4128c9d664a9190ec3022ccb09) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Colored/PowerboxColHeart.prefab using Guid(6bf6af4128c9d664a9190ec3022ccb09) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a9b969c8d5eb27872277c1168d24e7f1') in 0.0147778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Metal/PowerboxMetalLightning.prefab
+  artifactKey: Guid(97bea2cb17c392345b7f6901db843d53) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Metal/PowerboxMetalLightning.prefab using Guid(97bea2cb17c392345b7f6901db843d53) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'dfc526610d79302f32086c5f92807e56') in 0.01366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Pickup Colored/PowerboxPickupColSkates.prefab
+  artifactKey: Guid(5bbdeff25aeafdb4983233501506f0cb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Pickup Colored/PowerboxPickupColSkates.prefab using Guid(5bbdeff25aeafdb4983233501506f0cb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1ee44a452eb3034c05b6d246b136f696') in 0.0146603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleSoft/ItemSparkleSoftBlue.prefab
+  artifactKey: Guid(66f193da1de9a3d4cada4e2c914e8d3d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleSoft/ItemSparkleSoftBlue.prefab using Guid(66f193da1de9a3d4cada4e2c914e8d3d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c4d38f453e4900146886843631f55500') in 0.0123706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleSoft/ItemSparkleSoftRainbow.prefab
+  artifactKey: Guid(bc280176305c0be47a04235b2117c735) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSparkleSoft/ItemSparkleSoftRainbow.prefab using Guid(bc280176305c0be47a04235b2117c735) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '98d9acb253e7ecb5af06ac9ac20d3e72') in 0.0140683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbFireSoftElemental.prefab
+  artifactKey: Guid(0836152303aaf43429d0ae0993da6242) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerOrb/Elemental/PowerOrbFireSoftElemental.prefab using Guid(0836152303aaf43429d0ae0993da6242) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59fb10fede7ff4c086f365f9fc401361') in 0.1237755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Textures/candle_soft.png
+  artifactKey: Guid(27219c4af3e561e41bc297224110e7ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Textures/candle_soft.png using Guid(27219c4af3e561e41bc297224110e7ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '330597da94f2b2a04a012d91e83a6a89') in 0.027336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Textures/fire_ground_softer3x3.png
+  artifactKey: Guid(77df309a835044f43bfdb69d4e65bf92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Textures/fire_ground_softer3x3.png using Guid(77df309a835044f43bfdb69d4e65bf92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '854ef151d8ccbe4ee3dc4cad3cc2023a') in 0.0289445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Missiles/Rocket/RocketMissileBlue.prefab
+  artifactKey: Guid(81ba803537470cd478e76c5d33b7e81e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Missiles/Rocket/RocketMissileBlue.prefab using Guid(81ba803537470cd478e76c5d33b7e81e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df504bcb5f43f5845f647c19f52a4393') in 0.0819602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Portals/VortexPortal/VortexPortalPurple.prefab
+  artifactKey: Guid(603b7f589d2adc446ae6f20ac3b637b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Portals/VortexPortal/VortexPortalPurple.prefab using Guid(603b7f589d2adc446ae6f20ac3b637b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b1bb1ca03fa3bc6fcef08c3c93ceda0') in 0.0589139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillDirectional.prefab
+  artifactKey: Guid(5fcafcc84e4baa34fad1dfafcad179c5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillDirectional.prefab using Guid(5fcafcc84e4baa34fad1dfafcad179c5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c46f6897df9c72ed19d29e23a286f089') in 0.0142403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.278204 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionGreen.prefab
+  artifactKey: Guid(26fd612d281730243a5cb8e108261552) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/LaserExplosion/LaserExplosionGreen.prefab using Guid(26fd612d281730243a5cb8e108261552) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f73147376f3feee226971f93c07b6480') in 0.069286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/SnowExplosion/SnowExplosion.prefab
+  artifactKey: Guid(d24d32ae7abae424080a26044bf04ea0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/SnowExplosion/SnowExplosion.prefab using Guid(d24d32ae7abae424080a26044bf04ea0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f65d5327fbd2dea4ea24113083eb5c3') in 0.1278998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaSmallMuzzle/EnergyNovaMuzzleSmallBlue.prefab
+  artifactKey: Guid(fe2530046ef04d84d8a7fdd7c0bbb06c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Muzzleflash/EnergyNovaSmallMuzzle/EnergyNovaMuzzleSmallBlue.prefab using Guid(fe2530046ef04d84d8a7fdd7c0bbb06c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66c1f8e5d79b68de5b964eaa4f75e4d0') in 0.0573982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Flat/PowerboxBomb.prefab
+  artifactKey: Guid(d5c97965fbedc5443b328fb0e0171528) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Powerups/PowerBox/Box Flat/PowerboxBomb.prefab using Guid(d5c97965fbedc5443b328fb0e0171528) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a35c707f8bb8b68520b68b6c93003aa') in 0.0618585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Splat(Green).prefab
+  artifactKey: Guid(c5810da3db5452649be8d69663d6e919) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions (Text)/Splat(Green).prefab using Guid(c5810da3db5452649be8d69663d6e919) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '739ccc0358fcb8fa0bff98d11daf6b9e') in 0.0649542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Combat/Explosions/GasExplosion/GasExplosionPink.prefab
+  artifactKey: Guid(dd38b45e2135c854d87201aa3d863978) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Epic Toon FX/Prefabs/Combat/Explosions/GasExplosion/GasExplosionPink.prefab using Guid(dd38b45e2135c854d87201aa3d863978) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62abbcb05f769154462975014ccdea5e') in 0.0772146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

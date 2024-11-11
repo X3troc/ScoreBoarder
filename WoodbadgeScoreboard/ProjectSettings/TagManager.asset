@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - FXStartMove
+  - Missile
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -36,7 +38,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - WallpaperLayer
   - 
   m_SortingLayers:
   - name: Default
